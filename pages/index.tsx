@@ -26,19 +26,9 @@ export default function HomePage() {
     <Page title="The starting point for your next project">
       <HomeHero />
 
-      <HomeNewStart />
-
-      <HomeFlexibleComponents />
-
       <HomeFeatureHighlights />
 
       <HomeForDesigner />
-
-      <PricingHome plans={_pricingHome} />
-
-      <HomeCombination />
-
-      <HomeAdvertisement />
     </Page>
   );
 }

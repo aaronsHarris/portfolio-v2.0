@@ -60,8 +60,9 @@ export default function Footer() {
               <Stack alignItems="flex-start" spacing={3}>
                 <Logo />
                 <Typography variant="body3" sx={{ color: 'text.secondary' }}>
-                  The starting point for your next project based on easy-to-customize Material-UI ©
-                  helps you build apps faster and better.
+                  This is completely customizable theme for your personal or business website. This
+                  is only for demostational purposes, some features or pages may be disabled or
+                  hidden.
                 </Typography>
               </Stack>
 
@@ -70,57 +71,8 @@ export default function Footer() {
                 <SocialsButton />
               </Stack>
 
-              <Stack alignItems="flex-start">
-                <Typography variant="h6">Documentation</Typography>
-                <LinkStyle href="#">Documentation</LinkStyle>
-                <LinkStyle href="#">Changelog</LinkStyle>
-                <LinkStyle href="#">Contributing</LinkStyle>
-              </Stack>
 
-              <Stack spacing={2}>
-                <Stack spacing={1}>
-                  <Typography variant="h6">Let’s stay in touch</Typography>
-                  <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-                    Ubscribe to our newsletter to receive latest articles to your inbox weekly.
-                  </Typography>
-                </Stack>
-                <FilledInput
-                  placeholder="Email address"
-                  endAdornment={
-                    <InputAdornment position="end">
-                      <Button variant="contained" size="small" sx={{ py: '9px' }}>
-                        Subscribe
-                      </Button>
-                    </InputAdornment>
-                  }
-                  sx={{
-                    pr: 0.5,
-                    '& .MuiFilledInput-input': { py: '14px' },
-                  }}
-                />
-              </Stack>
-
-              <Stack spacing={2}>
-                <Typography variant="h6">Apps</Typography>
-                <AppStoreButton />
-              </Stack>
             </Stack>
-          </Grid>
-
-          <Grid item xs={12} md={6}>
-            {isDesktop ? (
-              <Masonry columns={3} spacing={3}>
-                {renderLists.map((list) => (
-                  <ListDesktop key={list.subheader} list={list} />
-                ))}
-              </Masonry>
-            ) : (
-              <Stack spacing={1.5}>
-                {renderLists.map((list) => (
-                  <ListMobile key={list.subheader} list={list} />
-                ))}
-              </Stack>
-            )}
           </Grid>
         </Grid>
       </Container>
@@ -135,7 +87,7 @@ export default function Footer() {
           sx={{ py: 3, textAlign: 'center' }}
         >
           <Typography variant="body3" sx={{ color: 'text.secondary' }}>
-            © 2021. All rights reserved
+            © 2022 All rights reserved
           </Typography>
           <Stack direction="row" spacing={3} justifyContent="center">
             <Link variant="body3" sx={{ color: 'text.secondary' }}>

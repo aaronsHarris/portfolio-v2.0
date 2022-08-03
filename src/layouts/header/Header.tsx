@@ -43,25 +43,7 @@ export default function Header({ transparent }: Props) {
           }}
         >
           <Box sx={{ lineHeight: 0, position: 'relative' }}>
-            <Logo onDark={transparent && !isScrolling} />
-
-            <Link href="https://zone-docs.vercel.app/changelog" target="_blank" rel="noopener">
-              <Label
-                color="info"
-                sx={{
-                  ml: 0.5,
-                  px: 0.5,
-                  top: -14,
-                  left: 64,
-                  height: 20,
-                  fontSize: 11,
-                  cursor: 'pointer',
-                  position: 'absolute',
-                }}
-              >
-                v1.4
-              </Label>
-            </Link>
+            <Logo />
           </Box>
 
           {isDesktop && (
@@ -107,7 +89,7 @@ export default function Header({ transparent }: Props) {
                 </NextLink>
 
                 <Button variant="contained" href={Routes.buyNow} target="_blank" rel="noopener">
-                  Buy Now
+                  log in
                 </Button>
               </Stack>
             )}
