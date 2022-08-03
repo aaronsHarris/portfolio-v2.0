@@ -44,18 +44,21 @@ export default function HomeHero() {
               }}
             >
               <Typography variant="h1">
-                Create Your <br /> Website Today with
+                I'm Aaron Harris
                 <Box component="span" sx={{ color: 'primary.main' }}>
-                  {''} ZONE
+                  <Typography variant="h2">{''} Developer</Typography>
+                </Box>
+                <Box component="span" sx={{ color: 'secondary.main' }}>
+                  <Typography variant="h2">{''} Designer</Typography>
+                </Box>
+                <Box component="span" sx={{ color: 'primary.main' }}>
+                  <Typography variant="h2">{''} Badass</Typography>
                 </Box>
               </Typography>
 
-              <Typography sx={{ color: 'text.secondary' }}>
-                The ZONE is built on top of MUI, a powerful library that provides flexible,
-                customizable, and easy-to-use components.
-              </Typography>
 
-              <Button
+
+              {/* <Button
                 color="inherit"
                 size="large"
                 variant="contained"
@@ -65,10 +68,10 @@ export default function HomeHero() {
                 href={Routes.figmaPreview}
               >
                 figma workspace
-              </Button>
+              </Button> */}
 
               <Stack direction="row" spacing={2.5}>
-                {['figma', 'javascript', 'typescript', 'material', 'react'].map((icon) => (
+                {['react', 'javascript', 'typescript', 'material', 'figma'].map((icon) => (
                   <Image
                     key={icon}
                     alt={icon}
@@ -90,15 +93,16 @@ export default function HomeHero() {
         sx={{
           maxWidth: 1280,
           position: 'absolute',
-          bottom: { md: '20%', lg: 40 },
-          right: { md: -110, xl: 0 },
+          bottom: { md: '20%' },
+          right: { md: -10, xl: 0 },
           display: { xs: 'none', md: 'block' },
           width: { md: `calc(100% - ${offsetLeft}px)` },
+          paddingRight: 10,
         }}
       >
         <Image
           alt="home-hero"
-          src="https://zone-assets-api.vercel.app/assets/images/home/home_hero.png"
+          src="https://res.cloudinary.com/dbdrox2p9/image/upload/v1659560114/Web-Design-PNG-Transparent_ywou6f.png"
         />
       </Box>
     </RootStyle>
