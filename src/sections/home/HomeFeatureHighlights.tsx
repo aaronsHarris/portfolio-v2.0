@@ -1,5 +1,6 @@
 import { m } from 'framer-motion';
 // icons
+import { Icon } from '@iconify/react';
 import asleepIcon from '@iconify/icons-carbon/asleep';
 import scriptIcon from '@iconify/icons-carbon/script';
 import textFont from '@iconify/icons-carbon/text-font';
@@ -27,25 +28,24 @@ import { MotionViewport, varFade } from '../../components/animate';
 // ----------------------------------------------------------------------
 
 const FEATURE_HIGHLIGHTS = [
-  { title: '4 Prebuilt Websites', icon: <Iconify icon={applicationWeb} /> },
-  { title: '50+ Demo Page', icon: <Iconify icon={stackedScrolling2} /> },
-  { title: 'Easy to Customize', icon: <Iconify icon={settingsAdjust} /> },
-  { title: 'Color Presets', icon: <Iconify icon={colorSwitch} /> },
-  { title: 'Dark Mode', icon: <Iconify icon={asleepIcon} /> },
-  { title: 'Awesome Animation', icon: <Iconify icon={booleanIcon} /> },
-  { title: 'Google Fonts', icon: <Iconify icon={textFont} /> },
+  { title: 'React', icon: <Icon icon="akar-icons:react-fill" /> },
+  { title: 'Javascript', icon: <Icon icon="akar-icons:javascript-fill" /> },
   {
     title: 'Figma Design',
-    icon: (
-      <SvgIconStyle src="https://zone-assets-api.vercel.app/assets/icons/ic_figma_outline.svg" />
-    ),
+    icon: <Icon icon="akar-icons:figma-fill" />,
   },
-  { title: 'Fully Responsive', icon: <Iconify icon={devicesIcon} /> },
-  { title: 'Mega Menu', icon: <Iconify icon={listDropdown} /> },
-  { title: 'Clean Markup', icon: <Iconify icon={scriptIcon} /> },
-  { title: 'Free Updates', icon: <Iconify icon={updateNow} /> },
-  { title: 'Fast Support', icon: <Iconify icon={headsetIcon} /> },
-  { title: 'Well Documented', icon: <Iconify icon={notebookIcon} /> },
+  { title: 'Next.js', icon: <Icon icon="cib:next-js" /> },
+  { title: 'HTML', icon: <Icon icon="akar-icons:html-fill" /> },
+  { title: 'Material Design', icon: <Icon icon="cib:material-design" /> },
+  { title: 'Angular', icon: <Icon icon="cib:angular" /> },
+  {
+    title: 'CSS',
+    icon: <Icon icon="akar-icons:css-fill" />,
+  },
+  { title: 'Adobe XD', icon: <Icon icon="ci:adobe-xd" /> },
+  { title: 'Vue', icon: <Icon icon="akar-icons:vue-fill" /> },
+  { title: 'Node.js', icon: <Icon icon="akar-icons:node-fill" /> },
+  { title: 'Framer', icon: <Icon icon="cib:framer" /> },
 ];
 
 // ----------------------------------------------------------------------
@@ -72,19 +72,19 @@ export default function HomeFeatureHighlights() {
             <Grid item xs={12} md={4} sx={{ textAlign: { xs: 'center', md: 'left' } }}>
               <m.div variants={varFade().inUp}>
                 <Typography variant="overline" sx={{ color: 'text.disabled' }}>
-                  Feature Highlights
+                  Skills
                 </Typography>
               </m.div>
 
               <m.div variants={varFade().inUp}>
                 <Typography variant="h2" sx={{ mt: 2, mb: 3 }}>
-                  Have Everything You Need
+                  I Create  Anything You Need
                 </Typography>
               </m.div>
 
               <m.div variants={varFade().inUp}>
                 <Typography sx={{ color: 'text.secondary' }}>
-                  {`Let's see what makes our theme super powerful and user-friendly!`}
+                  {`I always stay up to date with the latest dev & design trends and stacks for your next project`}
                 </Typography>
               </m.div>
 
@@ -103,7 +103,7 @@ export default function HomeFeatureHighlights() {
                     },
                   }}
                 >
-                  Purchase Now
+                  My Projects
                 </Button>
               </m.div>
             </Grid>
@@ -155,7 +155,7 @@ export default function HomeFeatureHighlights() {
                 href={Routes.buyNow}
                 sx={{ mt: 5 }}
               >
-                Purchase Now
+                My
               </Button>
             </Grid>
           </Grid>
