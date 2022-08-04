@@ -10,7 +10,7 @@ const Routes = {
     posts: '/marketing/blog',
     post: (slug: string) => `/marketing/blog/${slug}`,
     about: '/marketing/about-us',
-    contact: '/marketing/contact-us',
+    contact: '/contact',
   },
   // Travel
   travel: {

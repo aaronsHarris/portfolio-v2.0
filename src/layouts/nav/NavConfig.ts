@@ -108,7 +108,7 @@ export const navConfig = [
   },
   {
     title: 'Contact',
-    path: Routes.travel.contact,
+    path: '/contact',
   },
   // { title: 'Documentation', path: Routes.docs },
 ];

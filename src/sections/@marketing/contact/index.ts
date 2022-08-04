@@ -1,2 +1,3 @@
-export { default as MarketingContactInfo } from './MarketingContactInfo';
-export { default as MarketingContactForm } from './MarketingContactForm';
+export { default as ContactInfo } from './ContactInfo';
+export { default as ContactForm } from './ContactForm';
+export { default as ContactHero } from './ContactHero';
