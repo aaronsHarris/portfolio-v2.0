@@ -17,7 +17,7 @@ const RootStyle = styled('div')(({ theme }) => ({
   overflow: 'hidden',
   position: 'relative',
   [theme.breakpoints.up('md')]: {
-    height: '100vh',
+    height: '80vh',
   },
 }));
 
@@ -46,13 +46,13 @@ export default function HomeHero() {
               <Typography variant="h1">
                 I'm Aaron Harris
                 <Box component="span" sx={{ color: 'primary.main' }}>
-                  <Typography variant="h2">{''} Developer</Typography>
+                  <Typography variant="h2">{''} Dev</Typography>
                 </Box>
                 <Box component="span" sx={{ color: 'secondary.main' }}>
-                  <Typography variant="h2">{''} Designer</Typography>
+                  <Typography variant="h2">{''} &</Typography>
                 </Box>
                 <Box component="span" sx={{ color: 'primary.main' }}>
-                  <Typography variant="h2">{''} Badass</Typography>
+                  <Typography variant="h2">{''} Designer</Typography>
                 </Box>
               </Typography>
 

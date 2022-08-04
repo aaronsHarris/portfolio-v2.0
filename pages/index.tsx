@@ -1,27 +1,26 @@
 import { ReactElement } from 'react';
-// _data
-import { _pricingHome } from '../_data/mock';
 // layouts
 import Layout from '../src/layouts';
 // components
 import { Page } from '../src/components';
 // sections
-import { PricingHome } from '../src/sections/pricing';
 import {
   HomeHero,
-  // HomeFAQs,
-  HomeNewStart,
-  // HomeDemoPages,
   HomeForDesigner,
-  HomeCombination,
-  HomeAdvertisement,
   HomeFeatureHighlights,
-  HomeFlexibleComponents,
 } from '../src/sections/home';
-
+//projects
+import { MarketingFreeSEO, MarketingLandingCaseStudies } from '../src/sections/@marketing';
+import { CaseStudyProps } from '../src/@types/marketing/case-studies';
+import { getAllCaseStudies } from '../src/utils/get-mardown/marketing/case-studies';
+import MarketingContactForm from '../src/sections/@marketing/contact/MarketingContactForm';
 // ----------------------------------------------------------------------
 
-export default function HomePage() {
+type Props = {
+  caseStudies: CaseStudyProps[];
+};
+
+export default function HomePage({ caseStudies }: Props) {
   return (
     <Page title="The starting point for your next project">
       <HomeHero />
@@ -29,6 +28,8 @@ export default function HomePage() {
       <HomeFeatureHighlights />
 
       <HomeForDesigner />
+      <MarketingLandingCaseStudies caseStudies={caseStudies.slice(-6)} />
+      <MarketingFreeSEO />
     </Page>
   );
 }
@@ -38,3 +39,11 @@ export default function HomePage() {
 HomePage.getLayout = function getLayout(page: ReactElement) {
   return <Layout simpleFooter>{page}</Layout>;
 };
+
+export async function getStaticProps() {
+  return {
+    props: {
+      caseStudies: getAllCaseStudies(),
+    },
+  };
+}

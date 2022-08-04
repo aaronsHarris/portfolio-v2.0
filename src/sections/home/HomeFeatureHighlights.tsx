@@ -1,19 +1,6 @@
 import { m } from 'framer-motion';
 // icons
 import { Icon } from '@iconify/react';
-import asleepIcon from '@iconify/icons-carbon/asleep';
-import scriptIcon from '@iconify/icons-carbon/script';
-import textFont from '@iconify/icons-carbon/text-font';
-import booleanIcon from '@iconify/icons-carbon/boolean';
-import devicesIcon from '@iconify/icons-carbon/devices';
-import headsetIcon from '@iconify/icons-carbon/headset';
-import updateNow from '@iconify/icons-carbon/update-now';
-import notebookIcon from '@iconify/icons-carbon/notebook';
-import colorSwitch from '@iconify/icons-carbon/color-switch';
-import listDropdown from '@iconify/icons-carbon/list-dropdown';
-import applicationWeb from '@iconify/icons-carbon/application-web';
-import settingsAdjust from '@iconify/icons-carbon/settings-adjust';
-import stackedScrolling2 from '@iconify/icons-carbon/stacked-scrolling-2';
 // @mui
 import { styled, alpha } from '@mui/material/styles';
 import { Container, Typography, Button, Grid, Box } from '@mui/material';
@@ -22,7 +9,6 @@ import cssStyles from '../../utils/cssStyles';
 // routes
 import Routes from '../../routes';
 // components
-import { Iconify, SvgIconStyle } from '../../components';
 import { MotionViewport, varFade } from '../../components/animate';
 
 // ----------------------------------------------------------------------
@@ -43,7 +29,7 @@ const FEATURE_HIGHLIGHTS = [
     icon: <Icon icon="akar-icons:css-fill" />,
   },
   { title: 'Adobe XD', icon: <Icon icon="ci:adobe-xd" /> },
-  { title: 'Vue', icon: <Icon icon="akar-icons:vue-fill" /> },
+  { title: 'TypeScript', icon: <Icon icon="cib:typescript" /> },
   { title: 'Node.js', icon: <Icon icon="akar-icons:node-fill" /> },
   { title: 'Framer', icon: <Icon icon="cib:framer" /> },
 ];
@@ -57,7 +43,7 @@ const RootStyle = styled('div')(({ theme }) => ({
   }),
   padding: theme.spacing(8, 0),
   [theme.breakpoints.up('md')]: {
-    padding: theme.spacing(15, 0),
+    padding: theme.spacing(5, 0),
   },
 }));
 

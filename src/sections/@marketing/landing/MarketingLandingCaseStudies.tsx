@@ -8,7 +8,7 @@ import { styled } from '@mui/material/styles';
 import { Box, Grid, Stack, Paper, Button, Container, Typography } from '@mui/material';
 // routes
 import Routes from '../../../routes';
-// hooks
+// hooks    
 import { useResponsive } from '../../../hooks';
 // @types
 import { CaseStudyProps } from '../../../@types/marketing';

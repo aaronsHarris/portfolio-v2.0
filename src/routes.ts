@@ -69,7 +69,7 @@ const Routes = {
   minimalDashboard: 'https://material-ui.com/store/items/minimal-dashboard',
   buyNow: 'https://material-ui.com/store/items/zone-landing-page',
   figmaPreview:
-    'https://www.figma.com/file/iAnp6x4J6YNvbVzdBnGM8P/%5BPreview%5D-Zone-Web?node-id=0%3A1',
+    'https://www.figma.com/file/11tJSszthQL962TkHYXBaw/Design-Process-WhiteBoard?node-id=0%3A1',
 };
 
 export default Routes;

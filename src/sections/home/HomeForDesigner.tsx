@@ -16,7 +16,7 @@ import { MotionViewport, varFade } from '../../components/animate';
 
 const RootStyle = styled('div')(({ theme }) => ({
   ...cssStyles(theme).bgImage({
-    url: 'https://zone-assets-api.vercel.app/assets/images/home/for_designer.jpg',
+    url: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1659568882/figma-bg_g3ue6d.png',
     startColor: alpha(theme.palette.grey[900], 0.8),
     endColor: alpha(theme.palette.grey[900], 0.8),
   }),
@@ -40,13 +40,13 @@ export default function HomeForDesigner() {
         <ContentStyle>
           <m.div variants={varFade({ distance: 40 }).inUp}>
             <Typography variant="overline" sx={{ opacity: 0.48 }}>
-              Professional Kit
+              Design
             </Typography>
           </m.div>
 
           <m.div variants={varFade({ distance: 40 }).inUp}>
             <Typography variant="h2" sx={{ mt: 2, mb: 5 }}>
-              For Designer
+              The Design Process
             </Typography>
           </m.div>
 
