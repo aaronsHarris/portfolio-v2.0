@@ -13,7 +13,7 @@ import {
 import { MarketingFreeSEO, MarketingLandingCaseStudies } from '../src/sections/@marketing';
 import { CaseStudyProps } from '../src/@types/marketing/case-studies';
 import { getAllCaseStudies } from '../src/utils/get-mardown/marketing/case-studies';
-import MarketingContactForm from '../src/sections/@marketing/contact/MarketingContactForm';
+// import MarketingContactForm from '../src/sections/@marketing/contact/MarketingContactForm';
 // ----------------------------------------------------------------------
 
 type Props = {

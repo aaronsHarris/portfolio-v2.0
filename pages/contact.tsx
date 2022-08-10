@@ -58,5 +58,5 @@ export default function ContactUsPage() {
 // ----------------------------------------------------------------------
 
 ContactUsPage.getLayout = function getLayout(page: ReactElement) {
-  return <Layout>{page}</Layout>;
+  return <Layout simpleFooter>{page}</Layout>;
 };

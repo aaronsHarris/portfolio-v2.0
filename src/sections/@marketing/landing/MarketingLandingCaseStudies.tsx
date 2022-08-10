@@ -8,7 +8,7 @@ import { styled } from '@mui/material/styles';
 import { Box, Grid, Stack, Paper, Button, Container, Typography } from '@mui/material';
 // routes
 import Routes from '../../../routes';
-// hooks    
+// hooks
 import { useResponsive } from '../../../hooks';
 // @types
 import { CaseStudyProps } from '../../../@types/marketing';
@@ -54,9 +54,9 @@ export default function MarketingLandingCaseStudies({ caseStudies }: Props) {
           }}
         >
           <Typography variant="overline" sx={{ color: 'text.disabled', mb: 2 }}>
-            Our Work
+          Projects
           </Typography>
-          <Typography variant="h2">Case Studies</Typography>
+          <Typography variant="h2">My Work</Typography>
         </Stack>
 
         <Grid container spacing={3} alignItems="center" sx={{ py: { xs: 8, md: 15 } }}>
