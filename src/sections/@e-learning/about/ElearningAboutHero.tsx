@@ -30,14 +30,13 @@ export default function ElearningAboutHero() {
               textAlign: { xs: 'center', md: 'left' },
             }}
           >
-            <Typography variant="h1">Online Courses</Typography>
+            <Typography variant="h1">Aaron Harris</Typography>
             <Typography sx={{ mt: 3, mb: 6 }}>
-              Nunc nulla. Ut leo. Pellentesque commodo eros a enim. Nunc egestas, augue at
-              pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede.
+              I am a developer & Designer that wants to help create the future of the web and make it look amazing in the process!
             </Typography>
 
             <Button variant="contained" size="large">
-              Browse Courses
+              My Projects
             </Button>
           </Grid>
 

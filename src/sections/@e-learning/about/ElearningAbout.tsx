@@ -79,8 +79,8 @@ export default function ElearningAbout() {
           <Grid item xs={12} md={6} lg={6}>
             <Image
               alt="about"
-              src="https://zone-assets-api.vercel.app/assets/images/e-learning/course_about.jpg"
-              ratio="3/4"
+              src="https://res.cloudinary.com/dbdrox2p9/image/upload/c_fit,h_725,w_544/v1660169979/profilePic-2021-bw_bzn6i3.jpg"
+              ratio="4/6"
               sx={{ borderRadius: 2 }}
             />
           </Grid>

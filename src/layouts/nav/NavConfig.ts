@@ -100,7 +100,7 @@ export const navConfig = [
   // { title: 'Components', path: Routes.componentsUI },
   {
     title: 'About',
-    path: Routes.travel.about,
+    path: Routes.eLearning.about,
   },
   {
     title: 'Projects',

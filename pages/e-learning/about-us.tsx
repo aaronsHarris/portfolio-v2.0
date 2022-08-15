@@ -15,10 +15,10 @@ import Layout from '../../src/layouts';
 import { Page } from '../../src/components';
 // sections
 import { NewsletterElearning } from '../../src/sections/newsletter';
-import { BlogElearningLatestPosts } from '../../src/sections/blog';
+// import { BlogElearningLatestPosts } from '../../src/sections/blog';
 import { TestimonialsElearning } from '../../src/sections/testimonials';
-import { TeamElearningAbout } from '../../src/sections/team';
-import { OurClientsElearning } from '../../src/sections/our-clients';
+// import { TeamElearningAbout } from '../../src/sections/team';
+// import { OurClientsElearning } from '../../src/sections/our-clients';
 import {
   ElearningAboutHero,
   ElearningAbout,
@@ -42,23 +42,19 @@ type Props = {
 
 export default function ElearningAboutUsPage({ posts }: Props) {
   return (
-    <Page title="About Us - E-Learning">
+    <Page title="About">
       <RootStyle>
+
         <ElearningAboutHero />
 
-        <ElearningAbout />
+        {/* <ElearningAbout /> */}
 
         <ElearningAboutCoreValues />
 
-        <TeamElearningAbout members={_members} />
-
-        <OurClientsElearning brands={_brandsColor} />
-
         <TestimonialsElearning testimonials={_testimonials} />
 
-        <BlogElearningLatestPosts posts={posts.slice(0, 4)} />
-
         <NewsletterElearning />
+
       </RootStyle>
     </Page>
   );
