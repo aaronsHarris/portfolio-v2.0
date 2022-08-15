@@ -26,7 +26,7 @@ const VISIONS = [
 const RootStyle = styled('div')(({ theme }) => ({
   padding: theme.spacing(8, 0),
   [theme.breakpoints.up('md')]: {
-    padding: theme.spacing(10, 0),
+    padding: theme.spacing(1, 0),
   },
 }));
 
@@ -37,7 +37,7 @@ export default function TravelAboutOurVision() {
     <RootStyle>
       <Container>
         <Stack
-          spacing={2}
+          spacing={1}
           sx={{
             maxWidth: 466,
             mb: { xs: 8, md: 5 },
@@ -47,14 +47,14 @@ export default function TravelAboutOurVision() {
         >
           <Typography variant="h2">My Mission</Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-            Stay creative, Stay on the cutting edge, Stay cool <br />
+            Stay Creative, Stay Consistant, Stay Cool <br />
             (try to take over the world was taken...)
           </Typography>
         </Stack>
 
         <Grid
           container
-          spacing={{ xs: 8, md: 3 }}
+          spacing={{ xs: 8, md: 2 }}
           justifyContent="space-between"
           alignItems={{ md: 'center' }}
         >
@@ -62,6 +62,7 @@ export default function TravelAboutOurVision() {
             <Image
               alt="vision"
               src="https://res.cloudinary.com/dbdrox2p9/image/upload/v1660590376/undraw_join_re_w1lh_yk2pgj.svg"
+
             />
           </Grid>
 
@@ -101,7 +102,7 @@ export default function TravelAboutOurVision() {
                         boxShadow: (theme) => ({ md: theme.customShadows.z24 }),
                       }),
                       ...(thirdVision && {
-                        boxShadow: { md: 0 },
+                        boxShadow: { md: 6 },
                       }),
                     }}
                   >

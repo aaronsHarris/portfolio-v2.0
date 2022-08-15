@@ -37,7 +37,7 @@ export default function TravelAboutUsPage() {
   return (
     <Page title="About">
       <RootStyle>
-        <ElearningLandingHero />
+        <ElearningLandingHero /> 
         {/* <TravelAbout /> */}
 
         <TravelAboutOurVision />

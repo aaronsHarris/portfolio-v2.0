@@ -21,13 +21,13 @@ import { FabButtonAnimate } from '../../../components/animate';
 
 const RootStyle = styled(Stack)(({ theme }) => ({
   overflow: 'hidden',
-  paddingTop: theme.spacing(15),
-  paddingBottom: theme.spacing(10),
+  paddingTop: theme.spacing(5),
+  paddingBottom: theme.spacing(0),
   [theme.breakpoints.up('md')]: {
     minHeight: '100vh',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingBottom: theme.spacing(15),
+    paddingBottom: theme.spacing(5),
   },
 }));
 
