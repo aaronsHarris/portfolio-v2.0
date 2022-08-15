@@ -8,14 +8,19 @@ import { Image } from '../../../components';
 
 const VISIONS = [
   {
-    name: 'Vestibulum',
-    description: 'In dui magna, posuere eget, vestibulum et, tempor auctor, justo.',
+    name: 'Stay Creative',
+    description:
+      'I seek inspiration from everything.',
   },
   {
-    name: 'Fusce',
-    description: 'Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.',
+    name: 'Stay Consistant',
+    description: 'Consistency is Credibility.',
   },
-  { name: 'Praesent', description: 'Suspendisse feugiat. Quisque id odio.' },
+  {
+    name: 'Stay Cool',
+    description:
+      "Be kind, courtesous, and cool",
+  },
 ];
 
 const RootStyle = styled('div')(({ theme }) => ({
@@ -32,7 +37,7 @@ export default function TravelAboutOurVision() {
     <RootStyle>
       <Container>
         <Stack
-          spacing={3}
+          spacing={2}
           sx={{
             maxWidth: 466,
             mb: { xs: 8, md: 5 },
@@ -40,9 +45,10 @@ export default function TravelAboutOurVision() {
             textAlign: { xs: 'center', md: 'left' },
           }}
         >
-          <Typography variant="h2">Our Mission</Typography>
+          <Typography variant="h2">My Mission</Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-            Curabitur ullamcorper ultricies nisi. Aenean viverra rhoncus pede.
+            Stay creative, Stay on the cutting edge, Stay cool <br />
+            (try to take over the world was taken...)
           </Typography>
         </Stack>
 
@@ -52,10 +58,10 @@ export default function TravelAboutOurVision() {
           justifyContent="space-between"
           alignItems={{ md: 'center' }}
         >
-          <Grid item xs={12} md={6} lg={5}>
+          <Grid item xs={12} md={6} lg={4}>
             <Image
               alt="vision"
-              src="https://zone-assets-api.vercel.app/assets/illustrations/illustration_vision.svg"
+              src="https://res.cloudinary.com/dbdrox2p9/image/upload/v1660590376/undraw_join_re_w1lh_yk2pgj.svg"
             />
           </Grid>
 

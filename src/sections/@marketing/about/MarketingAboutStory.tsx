@@ -16,28 +16,28 @@ import useResponsive from '../../../hooks/useResponsive';
 
 const CORE_VALUES = [
   {
-    year: '2021',
-    title: 'Customer Satisfaction',
+    year: '2005',
+    title: 'All about the Hospitality',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      'I stopped my hoppy of html/css and started climbing the ladder in the restaurant and bar industry at a swift pace, working every position there is.',
   },
   {
     year: '2020',
-    title: 'Transparency',
+    title: 'Fine Dining to Food Trucks',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      'I managed Bars, Restaurants, Served at the best local resaurants in Houston, and applied my skills in my last kitchen to lead an excellent local company',
   },
   {
-    year: '2019',
-    title: 'Reputation',
+    year: '2021',
+    title: 'A change in the tide',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      "After the shut down and confusion of 2020, I accessed my career and wanted to apply myself at something new. I picked up coding where I left off  with help from General Assembly and got to work and haven't stoppped.",
   },
   {
-    year: '2018',
-    title: 'Cooperation',
+    year: '2022',
+    title: 'Design & Development',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      "I'm contiuning my journey and learning and moving forward every day. I won't ever stop loving the tech field and solving problems and sharing my vision for a beautiful future.",
   },
 ];
 
@@ -68,10 +68,10 @@ export default function MarketingAboutStory() {
             mb: { xs: 8, md: 15 },
           }}
         >
-          <Typography variant="h2">Our Story</Typography>
+          <Typography variant="h2">My Journey</Typography>
 
           <Typography sx={{ color: 'text.secondary' }}>
-            Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
+            I crush my goals and I'm hungry for more
           </Typography>
         </Stack>
 

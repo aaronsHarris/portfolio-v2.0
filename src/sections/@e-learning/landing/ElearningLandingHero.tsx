@@ -56,15 +56,15 @@ export default function ElearningLandingHero() {
                 }}
               >
                 <Typography variant="h1">
-                  Free
+                  Hi I'm
                   <Box component="span" sx={{ color: 'text.disabled' }}>
                     {' '}
-                    Online{' '}
+                    {' '}
                   </Box>
                   <Box component="span" sx={{ color: 'primary.main', textDecoration: 'underline' }}>
-                    Courses{' '}
-                  </Box>
-                  From The Experts
+                    Aaron{' '}
+                  </Box><br/>
+                  and this is me
                 </Typography>
 
                 <Typography sx={{ color: 'text.secondary', mt: 3, mb: 5 }}>
@@ -77,8 +77,9 @@ export default function ElearningLandingHero() {
                     size="large"
                     variant="contained"
                     endIcon={<Iconify icon={chevronRight} />}
+                    href='/travel/blog'
                   >
-                    Ready Start
+                    My Projects
                   </Button>
                   <TextIconLabel
                     icon={
@@ -86,7 +87,7 @@ export default function ElearningLandingHero() {
                         <Iconify icon={playIcon} />
                       </FabButtonAnimate>
                     }
-                    value="Watch Video"
+                    value="My Vibe"
                     onClick={handleOpenVideo}
                     justifyContent={{ xs: 'center', sm: 'unset' }}
                     sx={{
@@ -124,9 +125,9 @@ function SummarySection() {
       direction="row"
       justifyContent={{ xs: 'center', md: 'unset' }}
     >
-      {SummaryItem(14000, 'Learners', 'warning')}
-      {SummaryItem(1050, 'Courses', 'error')}
-      {SummaryItem(59000, 'Graduates', 'success')}
+      {SummaryItem(15, 'years of Hospitality', 'warning')}
+      {SummaryItem(2050, 'hours in projects', 'error')}
+      {SummaryItem(59000, 'Exellent jokes', 'success')}
     </Stack>
   );
 }

@@ -1,1 +1,1 @@
-export const video = `https://www.dropbox.com/s/zqzskvpthmbbbr0/zone_video_01.mp4?dl=0`;
+export const video = `https://youtu.be/iVuB1ZASrGw`;

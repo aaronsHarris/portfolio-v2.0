@@ -15,6 +15,8 @@ import { Page } from '../../src/components';
 import { TestimonialsTravel } from '../../src/sections/testimonials';
 import { TeamTravelAbout } from '../../src/sections/team';
 import { TravelAbout, TravelAboutOurVision } from '../../src/sections/@travel';
+import { MarketingAboutStory } from '../../src/sections/@marketing';
+import { ElearningLandingHero } from '../../src/sections/@e-learning';
 
 // ----------------------------------------------------------------------
 
@@ -35,12 +37,14 @@ export default function TravelAboutUsPage() {
   return (
     <Page title="About">
       <RootStyle>
+        <ElearningLandingHero />
         {/* <TravelAbout /> */}
 
         <TravelAboutOurVision />
 
         {/* <TeamTravelAbout members={_members} /> */}
 
+        <MarketingAboutStory />
         <TestimonialsTravel testimonials={_testimonials} />
       </RootStyle>
     </Page>

@@ -59,9 +59,8 @@ function ElearningHeroIllustration({ ...other }: BoxProps) {
     <RootStyle {...other}>
       <Box sx={{ position: 'absolute', right: 18, bottom: 28, zIndex: 8 }}>
         <Image
-          placeholderSrc=""
           alt="teacher"
-          src="https://zone-assets-api.vercel.app/assets/images/e-learning/course_teacher_hero.png"
+          src="https://res.cloudinary.com/dbdrox2p9/image/upload/v1660593876/My_project_1_oms4xy.png"
           sx={{ width: 546, height: 650 }}
         />
       </Box>
@@ -96,11 +95,11 @@ function ElearningHeroIllustration({ ...other }: BoxProps) {
         sx={{ zIndex: 9, left: 120, bottom: 168, position: 'absolute' }}
       >
         <Label
-          text="Python"
+          text="React"
           icon={
             <Image
               alt="python"
-              src="https://zone-assets-api.vercel.app/assets/icons/platform/ic_platform_python.svg"
+              src="https://res.cloudinary.com/dbdrox2p9/image/upload/v1660594099/react-2_u4dvig.svg"
               sx={{ width: 56, height: 56 }}
             />
           }
@@ -125,7 +124,7 @@ function ElearningHeroIllustration({ ...other }: BoxProps) {
       >
         <Icon
           color={GREEN}
-          content={<Typography sx={{ ...styleIconContent }}>Dw</Typography>}
+          content={<Typography sx={{ ...styleIconContent }}>MUI</Typography>}
           sx={{ transform: 'scale(1.2) rotate(15deg)' }}
         />
       </Box>
@@ -133,7 +132,7 @@ function ElearningHeroIllustration({ ...other }: BoxProps) {
       <Box {...varRight} component={m.div} sx={{ zIndex: 8, bottom: 160, position: 'absolute' }}>
         <Icon
           color={YELLOW}
-          content={<Typography sx={{ ...styleIconContent }}>Ai</Typography>}
+          content={<Typography sx={{ ...styleIconContent }}>JS</Typography>}
           sx={{ transform: 'translateX(40px) scale(1.2) rotate(-15deg)' }}
         />
       </Box>
@@ -141,7 +140,7 @@ function ElearningHeroIllustration({ ...other }: BoxProps) {
       <Box {...varUp} component={m.div} sx={{ zIndex: 8, right: 90, position: 'absolute' }}>
         <Icon
           color={PURPLE}
-          content={<Typography sx={{ ...styleIconContent, color: 'common.white' }}>Ae</Typography>}
+          content={<Typography sx={{ ...styleIconContent, color: 'common.white' }}>SASS</Typography>}
           sx={{ transform: 'scale(1.2) translateY(20px) rotate(15deg)' }}
         />
       </Box>
@@ -149,7 +148,7 @@ function ElearningHeroIllustration({ ...other }: BoxProps) {
       <Box {...varDown} component={m.div} sx={{ zIndex: 8, position: 'absolute' }}>
         <Icon
           color={BLUE}
-          content={<Typography sx={{ ...styleIconContent, color: 'common.white' }}>Ps</Typography>}
+          content={<Typography sx={{ ...styleIconContent, color: 'common.white' }}>TS</Typography>}
           sx={{ transform: 'scale(1.2) translate(-135px, -75px) rotate(15deg)' }}
         />
       </Box>
