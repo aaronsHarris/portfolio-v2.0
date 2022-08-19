@@ -22,7 +22,7 @@ type Props = {
 
 export default function HomePage({ caseStudies }: Props) {
   return (
-    <Page title="The starting point for your next project">
+    <Page title="Aaron Harris | Dev & Designer">
       <HomeHero />
 
       <HomeFeatureHighlights />

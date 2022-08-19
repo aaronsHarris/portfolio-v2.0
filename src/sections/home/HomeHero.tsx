@@ -39,24 +39,23 @@ export default function HomeHero() {
               alignItems={{ xs: 'center', md: 'flex-start' }}
               justifyContent="center"
               sx={{
-                py: 15,
+                py: {xs: 15, md: 25},
+                pl: {xs: '0', md: '10px'},
                 textAlign: { xs: 'center', md: 'left' },
               }}
             >
               <Typography variant="h1">
                 I'm Aaron Harris
                 <Box component="span" sx={{ color: 'primary.main' }}>
-                  <Typography variant="h2">{''} Dev</Typography>
+                  <Typography variant="h2">{''} Dev &</Typography>
                 </Box>
+                {/* <Box component="span" sx={{ color: 'secondary.main' }}>
+
+                </Box> */}
                 <Box component="span" sx={{ color: 'secondary.main' }}>
-                  <Typography variant="h2">{''} &</Typography>
-                </Box>
-                <Box component="span" sx={{ color: 'primary.main' }}>
                   <Typography variant="h2">{''} Designer</Typography>
                 </Box>
               </Typography>
-
-
 
               {/* <Button
                 color="inherit"
@@ -93,11 +92,12 @@ export default function HomeHero() {
         sx={{
           maxWidth: 1280,
           position: 'absolute',
-          bottom: { md: '20%' },
+          bottom: { md: '10%' },
           right: { md: -10, xl: 0 },
           display: { xs: 'none', md: 'block' },
           width: { md: `calc(100% - ${offsetLeft}px)` },
           paddingRight: 10,
+
         }}
       >
         <Image
