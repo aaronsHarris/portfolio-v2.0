@@ -39,7 +39,8 @@ export default function HomeHero() {
               alignItems={{ xs: 'center', md: 'flex-start' }}
               justifyContent="center"
               sx={{
-                py: {xs: 15, md: 25},
+                pt: {xs: 15, md: 25},
+                pb: {xs: 5, md: 25},
                 pl: {xs: '0', md: '10px'},
                 textAlign: { xs: 'center', md: 'left' },
               }}
@@ -49,25 +50,10 @@ export default function HomeHero() {
                 <Box component="span" sx={{ color: 'primary.main' }}>
                   <Typography variant="h2">{''} Dev &</Typography>
                 </Box>
-                {/* <Box component="span" sx={{ color: 'secondary.main' }}>
-
-                </Box> */}
                 <Box component="span" sx={{ color: 'secondary.main' }}>
                   <Typography variant="h2">{''} Designer</Typography>
                 </Box>
               </Typography>
-
-              {/* <Button
-                color="inherit"
-                size="large"
-                variant="contained"
-                endIcon={<Iconify icon={launchIcon} />}
-                target="_blank"
-                rel="noopener"
-                href={Routes.figmaPreview}
-              >
-                figma workspace
-              </Button> */}
 
               <Stack direction="row" spacing={2.5}>
                 {['react', 'javascript', 'typescript', 'material', 'figma'].map((icon) => (

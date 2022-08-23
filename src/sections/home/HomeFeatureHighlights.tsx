@@ -115,7 +115,7 @@ export default function HomeFeatureHighlights() {
                       <Typography
                         variant="subtitle2"
                         component="h5"
-                        sx={{ mt: 2, fontWeight: 'fontWeightMedium' }}
+                        sx={{ mt: 2, mb: 2, fontWeight: 'fontWeightMedium' }}
                       >
                         {feature.title}
                       </Typography>
@@ -138,10 +138,10 @@ export default function HomeFeatureHighlights() {
                 variant="contained"
                 target="_blank"
                 rel="noopener"
-                href={Routes.buyNow}
+                href='/projects'
                 sx={{ mt: 5 }}
               >
-                My
+                My Projects
               </Button>
             </Grid>
           </Grid>
