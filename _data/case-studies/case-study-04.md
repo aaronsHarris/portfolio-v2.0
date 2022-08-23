@@ -1,22 +1,20 @@
 ---
-title: 'upCook'
-description: 'Praesent vestibulum dapibus nibh. Vestibulum fringilla pede sit amet augue. '
-category: 'Recipe Blog'
-coverImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_4.jpg'
-heroImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_hero.jpg'
-createdAt: '2020-03-16T05:35:07.322Z'
+title: 'fitNEXT'
+description: 'A fun vibrant dynamic business website'
+category: 'Digital'
+coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661295738/Screen_Shot_2022-08-23_at_6.01.46_PM_njdoqf.png'
+heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661296034/Screen_Shot_2022-08-23_at_6.07.09_PM_hcxlkk.png'
+createdAt: '2022-07-15T05:35:07.322Z'
 galleryImgs:
   [
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_1.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_2.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_3.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_4.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_5.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_6.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_7.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_8.jpg',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661295738/Screen_Shot_2022-08-23_at_6.01.46_PM_njdoqf.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661295560/Screen_Shot_2022-08-23_at_5.59.14_PM_ykvrno.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661297326/Screen_Shot_2022-08-23_at_6.28.35_PM_mds6oa.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661295490/Screen_Shot_2022-08-23_at_5.56.36_PM_wls4zj.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661295479/Screen_Shot_2022-08-23_at_5.57.28_PM_j4jg3p.png',
+
   ]
-website: https://example.com/
+website: https://fit-next.vercel.app/
 socialLinks:
   facebook: '#facebook-link'
   instagram: '#instagram-link'
@@ -26,24 +24,22 @@ socialLinks:
 
 ### Project Brief
 
-upCook is a simplistic recipe app. I love cooking and finding new recipes, but every time I look up something I have to read this person's whole life story before I find out what temp the oven is. So I made it simple! Find a recipe, find culinary info, and share your own
+This is one of a few potential templates for any business. Including multiple reuseable components and fun page transitions. This could be styled for any small business.
 
 ### Featured Tech
 
-upCook is a Full CRUD application,
+fitNEXT is a front-end only project built with Next.js
 
-- React
-- Ruby on Rails
-- Tailwind
-- Framer Motion
-- Design in 
+- Next.js, TypeScript, PropTypes
+- MUI with emotion caching
+- Client and Server side rendering
+- lightBox Modal, Parallax scrolling, Slick Carousal, Dark Mode Toggle
+- Material Design theme
 
-### Results
+### Post MVP Goals
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
+I am happy with the design and how smooth everything is. I would like to make it full CRUD with authentacation for a potential client
 
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+- add back end server
+- add common components (404 page, masonry grid, faq's, etc.)
+-
