@@ -1,5 +1,5 @@
 ---
-title: 'Digital'
+title: 'upCook'
 description: 'Praesent vestibulum dapibus nibh. Vestibulum fringilla pede sit amet augue. '
 category: 'Recipe Blog'
 coverImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_4.jpg'
@@ -26,17 +26,17 @@ socialLinks:
 
 ### Project Brief
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
+upCook is a simplistic recipe app. I love cooking and finding new recipes, but every time I look up something I have to read this person's whole life story before I find out what temp the oven is. So I made it simple! Find a recipe, find culinary info, and share your own
 
-### How We Work
+### Featured Tech
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringi
+upCook is a Full CRUD application,
 
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+- React
+- Ruby on Rails
+- Tailwind
+- Framer Motion
+- Design in 
 
 ### Results
 

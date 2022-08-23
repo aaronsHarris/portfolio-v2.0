@@ -104,7 +104,7 @@ export const navConfig = [
   },
   {
     title: 'Projects',
-    path: Routes.travel.posts,
+    path: Routes.marketing.caseStudies,
   },
   {
     title: 'Contact',

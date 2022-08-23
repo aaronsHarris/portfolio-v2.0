@@ -28,7 +28,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 export default function ContactUsPage() {
   return (
-    <Page title="Contact Brod Solutions - Ready to get Started?">
+    <Page title="Contact Aaron Harris">
       <RootStyle>
         <Container sx={{ py: { xs: 8, md: 10 } }}>
           <Grid
@@ -44,7 +44,7 @@ export default function ContactUsPage() {
             <Grid item xs={12} md={6} lg={6}>
               <Typography variant="subtitle2">Hit me up!</Typography>
               <Typography variant="h2" sx={{ mb: 5 }}>
-                Let's Talk
+                Let&apos;s Talk
               </Typography>
               <ContactForm />
             </Grid>

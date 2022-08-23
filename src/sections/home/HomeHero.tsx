@@ -31,7 +31,7 @@ export default function HomeHero() {
 
   return (
     <RootStyle>
-      <Container sx={{ height: 1 }}>
+      <Container sx={{ height: 1}}>
         <Grid container columnSpacing={3} alignItems="center" sx={{ height: 1 }}>
           <Grid item xs={12} md={5}>
             <Stack
