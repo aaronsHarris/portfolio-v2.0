@@ -1,6 +1,6 @@
 ---
 title: 'fitNEXT'
-description: 'A fun vibrant dynamic business website'
+description: 'A fun vibrant dynamic mock business website for potential clients'
 category: 'Digital'
 coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661295738/Screen_Shot_2022-08-23_at_6.01.46_PM_njdoqf.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661296034/Screen_Shot_2022-08-23_at_6.07.09_PM_hcxlkk.png'
