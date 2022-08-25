@@ -1,22 +1,19 @@
 ---
-title: 'Action Car'
-description: 'Praesent vestibulum dapibus nibh. Vestibulum fringilla pede sit amet augue. '
+title: 'Alumilite Academy'
+description: "Alumilite is an eCommerce site on Bigcommerce. They asked for a place for customers to learn, and I delivered"
 category: 'SEO'
-coverImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_5.jpg'
-heroImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_hero.jpg'
-createdAt: '2020-03-16T05:35:07.322Z'
+coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661461674/Screen_Shot_2022-08-25_at_4.07.49_PM_vzu3sl.png'
+heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661461775/Screen_Shot_2022-08-25_at_4.09.28_PM_sxvlvo.png'
+createdAt: '2020-06-01T05:35:07.322Z'
 galleryImgs:
   [
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_1.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_2.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_3.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_4.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_5.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_6.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_7.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_8.jpg',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661461775/Screen_Shot_2022-08-25_at_4.09.28_PM_sxvlvo.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661462688/Screen_Shot_2022-08-25_at_4.23.31_PM_n2iynp.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661463444/Screen_Shot_2022-08-25_at_4.37.18_PM_jjhf8b.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661462691/Screen_Shot_2022-08-25_at_4.23.25_PM_btbosx.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661463370/Screen_Shot_2022-08-25_at_4.36.03_PM_ocdb3j.png',
   ]
-website: https://example.com/
+website: https://www.alumilite.com/academy/
 socialLinks:
   facebook: '#facebook-link'
   instagram: '#instagram-link'
@@ -26,24 +23,18 @@ socialLinks:
 
 ### Project Brief
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
+I had a very tight schedule for this one and no real concept in mind except for a inspiration site they gave me. I saw it as a challenge and made my deadline.
 
-### How We Work
+### Featured Tech
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringi
-
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+- Bigcommerce Platform
+- handlebars.js & HTML
+- SaaS with Fully Responsive Design
+- Hero, accordion, youtube videos, Newsletter, Pixilee
+- Design in Figma
 
 ### Results
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
+This project was my first taste of a client that was not sure what they wanted. I was given no assets or content at first so it was difficult to visualize. I had to go back several times and undo features I had created due to the many key stake holders in the company I was working with, but in the end it all came together and they loved it.
 
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+After this project I created my design process to make my life and the client's easier.
