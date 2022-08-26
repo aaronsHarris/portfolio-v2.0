@@ -1,10 +1,10 @@
 ---
-title: 'Technology Nixon'
-description: 'Praesent vestibulum dapibus nibh. Vestibulum fringilla pede sit amet augue. '
+title: 'Untitled Project'
+description: 'New front-end project coming soon'
 category: 'Digital'
-coverImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_2.jpg'
+coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661469356/neon-style-coming-soon-glowing-background-design_1017-25516_u9j1zv.webp'
 heroImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_hero.jpg'
-createdAt: '2020-03-16T05:35:07.322Z'
+createdAt: '2022-10-01T05:35:07.322Z'
 galleryImgs:
   [
     'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_1.jpg',
@@ -26,24 +26,14 @@ socialLinks:
 
 ### Project Brief
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
+Coming Soon
 
-### How We Work
+### Featured Tech
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringi
 
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+- Next.js
+- MUI
 
 ### Results
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
-
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+Just holding a spot for my next project. Stay Tuned

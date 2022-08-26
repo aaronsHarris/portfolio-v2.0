@@ -2,7 +2,7 @@
 title: 'fitNEXT'
 description: 'A fun vibrant dynamic mock business website for potential clients'
 category: 'Digital'
-coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661295738/Screen_Shot_2022-08-23_at_6.01.46_PM_njdoqf.png'
+coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661549514/Screen_Shot_2022-08-25_at_6.24.33_PM_ngp9w3.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661296034/Screen_Shot_2022-08-23_at_6.07.09_PM_hcxlkk.png'
 createdAt: '2022-07-15T05:35:07.322Z'
 galleryImgs:
@@ -31,15 +31,11 @@ This is one of a few potential templates for any business. Including multiple re
 fitNEXT is a front-end only project built with Next.js
 
 - Next.js, TypeScript, PropTypes
-- MUI with emotion caching
+- MUI with Material Design Theme
 - Client and Server side rendering
 - lightBox Modal, Parallax scrolling, Slick Carousal, Dark Mode Toggle
-- Material Design theme
+- Fully Responsive Design
 
 ### Post MVP Goals
 
-I am happy with the design and how smooth everything is. I would like to make it full CRUD with authentacation for a potential client
-
-- add back end server
-- add common components (404 page, masonry grid, faq's, etc.)
--
+I am happy with the design and how smooth everything is. I would like to make it full CRUD with authentacation for a potential client.

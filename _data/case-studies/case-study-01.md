@@ -1,22 +1,19 @@
 ---
-title: 'Bank of America'
-description: 'Praesent vestibulum dapibus nibh. Vestibulum fringilla pede sit amet augue. '
+title: 'Travel Blog'
+description: 'This is a theme for any potentail client. It is fully customizable and dynamic for multiple concepts'
 category: 'Branding'
-coverImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_1.jpg'
-heroImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_hero.jpg'
-createdAt: '2020-03-16T05:35:07.322Z'
+coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466895/Screen_Shot_2022-08-25_at_5.34.51_PM_abvub6.png'
+heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466937/Screen_Shot_2022-08-25_at_5.35.30_PM_hieeqm.png'
+createdAt: '2022-07-01T05:35:07.322Z'
 galleryImgs:
   [
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_1.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_2.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_3.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_4.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_5.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_6.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_7.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_8.jpg',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661468694/Screen_Shot_2022-08-25_at_6.03.50_PM_i5fwnw.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661468697/Screen_Shot_2022-08-25_at_6.03.40_PM_msljiq.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661468787/Screen_Shot_2022-08-25_at_6.06.18_PM_e7zdpb.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661468784/Screen_Shot_2022-08-25_at_6.05.48_PM_som1eh.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661468826/Screen_Shot_2022-08-25_at_6.07.01_PM_grmvbm.png',
   ]
-website: https://example.com/
+website: https://travel-blog-topaz.vercel.app/
 socialLinks:
   facebook: '#facebook-link'
   instagram: '#instagram-link'
@@ -26,24 +23,16 @@ socialLinks:
 
 ### Project Brief
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
+This is another Front-end project that I helped create with Brod Solutions for their potential clients. It's dynamic and fully customizable.
 
-### How We Work
+### Featured Tech
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringi
-
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+- Next.js
+- MUI & Material Design Theme
+- Fully Responsive
+- Framer Animations
+- Hifi Design with Figma
 
 ### Results
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
-
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+I had fun with this, I love MUI. I reused a lot of the same components that's in this portfolio.

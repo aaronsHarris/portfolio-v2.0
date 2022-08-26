@@ -1,22 +1,21 @@
 ---
-title: 'Network Firefox'
-description: 'Praesent vestibulum dapibus nibh. Vestibulum fringilla pede sit amet augue. '
+title: 'DevUp'
+description: 'DevUp was my first team project with React. I took the lead on the front-end development, but everything was a fluid collaboration and we were very proud.'
 category: 'Development'
-coverImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_8.jpg'
-heroImg: 'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_hero.jpg'
-createdAt: '2020-03-16T05:35:07.322Z'
+coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466720/Screen_Shot_2022-08-25_at_5.31.56_PM_noryte.png'
+heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661465507/Screen_Shot_2022-08-25_at_5.11.43_PM_eznziy.png'
+createdAt: '2021-10-18T05:35:07.322Z'
 galleryImgs:
   [
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_1.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_2.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_3.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_4.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_5.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_6.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_7.jpg',
-    'https://zone-assets-api.vercel.app/assets/images/marketing/marketing_8.jpg',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466273/Screen_Shot_2022-08-25_at_5.11.32_PM_ebv5jz.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466270/Screen_Shot_2022-08-25_at_5.24.08_PM_sqofyk.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466443/Screen_Shot_2022-08-25_at_5.27.12_PM_ilarok.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466324/Screen_Shot_2022-08-25_at_5.23.48_PM_uzxevr.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661465650/Screen_Shot_2022-08-25_at_5.14.07_PM_gvuchu.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466530/Screen_Shot_2022-08-25_at_5.28.40_PM_dpx5ng.png',
+    'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466350/Screen_Shot_2022-08-25_at_5.25.45_PM_gqk5d7.png',
   ]
-website: https://example.com/
+website: https://devupapp.netlify.app/
 socialLinks:
   facebook: '#facebook-link'
   instagram: '#instagram-link'
@@ -26,24 +25,18 @@ socialLinks:
 
 ### Project Brief
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
+DevUp is an inventory application that recommends quality furniture, gadgets, and accessories for developers to improve the quality of their work space.
 
-### How We Work
+Credit to my Team: Jessica Choe, Tyler Washington, & Benjamin Jean
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringi
+### Featured Tech
 
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+- React
+- Tailwind with Fully Responsive Design
+- Full Stack project using MERN Stack
+- Full CRUD, Authentication, Admin privileges, Wishlist, Blog
+- Hifi Design in Figma & Component Hierarchy Tree
 
 ### Results
 
-Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero. Pellentesque auctor neque nec urna. Sed fringilla mauris sit amet nibh. Phasellus viverra nulla ut metus varius laoreet.
-
-- Medical Assistant
-- Web Designer
-- Dog Trainer
-- Nursing Assistant
-- President of Sales
+This team project went really smooth. My team was great and we didn't clash on anything. We worked so well together we got every post MVP goal we set out to do within the given MVP Timeline. The 'client' loved our presentation and gave us high praise for the level we were at.
