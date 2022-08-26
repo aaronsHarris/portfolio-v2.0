@@ -63,7 +63,7 @@ export default function MarketingCaseStudiesList({ caseStudies }: Props) {
         ))}
       </Box>
 
-      <Pagination
+      {/* <Pagination
         count={10}
         color="primary"
         size="large"
@@ -74,7 +74,7 @@ export default function MarketingCaseStudiesList({ caseStudies }: Props) {
             justifyContent: 'center',
           },
         }}
-      />
+      /> */}
     </>
   );
 }
