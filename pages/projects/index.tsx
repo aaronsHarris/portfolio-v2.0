@@ -5,7 +5,6 @@ import { Container, Typography, Stack } from '@mui/material';
 // config
 import { HEADER_MOBILE_HEIGHT, HEADER_DESKTOP_HEIGHT } from '../../src/config';
 // utils
-import { getAllPosts } from '../../src/utils/get-mardown/marketing/posts';
 import { getAllCaseStudies } from '../../src/utils/get-mardown/marketing/case-studies';
 // _data
 
@@ -49,7 +48,7 @@ export default function MarketingCaseStudiesPage({  caseStudies }: Props) {
           >
             <Typography variant="h2">Recent Projects</Typography>
             <Typography sx={{ color: 'text.secondary' }}>
-              I'm contantly coming up with new ideas
+              I&apos;m contantly coming up with new ideas
               <br /> and push myself to learn more.
             </Typography>
           </Stack>

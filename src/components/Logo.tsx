@@ -2,11 +2,9 @@ import { memo } from 'react';
 // next
 import NextLink from 'next/link';
 // @mui
-import { useTheme } from '@mui/material/styles';
 import { Box, BoxProps } from '@mui/material';
 import NextImage from 'next/image';
-import logoLight from '../../public/img/logoLight.png'
-import logoDark from '../../public/img/logoDark.png'
+import logoLight from '../../public/img/logoLight.png';
 // ----------------------------------------------------------------------
 
 interface LogoProps extends BoxProps {
@@ -14,14 +12,7 @@ interface LogoProps extends BoxProps {
   isSimple?: boolean;
 }
 
-function Logo({ onDark = false, isSimple = false, sx }: LogoProps) {
-  const theme = useTheme();
-  const isLight = theme.palette.mode === 'light';
-
-  const PRIMARY_MAIN = theme.palette.primary.main;
-  const LIGHT_COLOR = theme.palette.common.white;
-  const DARK_COLOR = theme.palette.grey[800];
-
+function Logo({ sx }: LogoProps) {
   return (
     <NextLink href="/" passHref>
       <Box
@@ -33,10 +24,7 @@ function Logo({ onDark = false, isSimple = false, sx }: LogoProps) {
           ...sx,
         }}
       >
-
-          <NextImage src={logoLight} />
-
-
+        <NextImage src={logoLight} />
       </Box>
     </NextLink>
   );
