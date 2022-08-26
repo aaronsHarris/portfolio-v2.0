@@ -1,7 +1,7 @@
 ---
 title: 'upCook'
 description: 'A simplistic aprouch to a recipe app using React and Ruby on Rails'
-category: 'Digital'
+category: 'Early Projects'
 coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661280199/Screen_Shot_2022-08-23_at_1.43.12_PM_kkxuot.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661280495/Screen_Shot_2022-08-23_at_1.48.08_PM_l0gpw0.png'
 createdAt: '2020-10-25T05:35:07.322Z'

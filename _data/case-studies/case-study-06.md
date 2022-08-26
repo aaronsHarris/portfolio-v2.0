@@ -1,7 +1,7 @@
 ---
 title: 'myHero'
 description: "myHero was my first React project I ever did. I still like the concept but it's hard to look at now, lol, it was fun though. One day I'll make a 2.0"
-category: 'SEO'
+category: 'Early Projects'
 coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661464333/Screen_Shot_2022-08-25_at_4.52.08_PM_p6d3cl.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661464840/Screen_Shot_2022-08-25_at_5.00.24_PM_g42lp0.png'
 createdAt: '2021-09-16T05:35:07.322Z'

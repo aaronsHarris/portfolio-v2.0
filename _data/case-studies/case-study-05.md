@@ -1,7 +1,7 @@
 ---
 title: 'Alumilite Academy'
 description: "Alumilite is an eCommerce site on Bigcommerce. They asked for a place for customers to learn, and I delivered"
-category: 'SEO'
+category: 'In Production'
 coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661461674/Screen_Shot_2022-08-25_at_4.07.49_PM_vzu3sl.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661461775/Screen_Shot_2022-08-25_at_4.09.28_PM_sxvlvo.png'
 createdAt: '2020-06-01T05:35:07.322Z'

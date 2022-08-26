@@ -1,7 +1,7 @@
 ---
 title: 'Travel Blog'
 description: 'This is a theme for any potentail client. It is fully customizable and dynamic for multiple concepts'
-category: 'Branding'
+category: 'Business Templates'
 coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466895/Screen_Shot_2022-08-25_at_5.34.51_PM_abvub6.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466937/Screen_Shot_2022-08-25_at_5.35.30_PM_hieeqm.png'
 createdAt: '2022-07-01T05:35:07.322Z'

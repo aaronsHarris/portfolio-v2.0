@@ -1,11 +1,12 @@
+//Next
+import NextLink from 'next/link';
 // @mui
 import { styled } from '@mui/material/styles';
-import { Typography, Divider, Stack } from '@mui/material';
+import { Typography, Divider, Stack, Link } from '@mui/material';
 // utils
 import { fDate } from '../../../../src/utils/formatTime';
 // @types
 import { CaseStudyFrontmatter } from '../../../@types/marketing';
-import { SocialsButton } from '../../../components';
 
 // ----------------------------------------------------------------------
 
@@ -41,7 +42,11 @@ export default function MarketingCaseStudySummary({ frontmatter }: Props) {
           <Typography variant="overline" sx={{ color: 'text.disabled' }}>
             Website
           </Typography>
-          <Typography variant="body2">{website}</Typography>
+          <Typography variant="body2" sx={{ textDecoration: 'none' }}>
+            <Link href="https://travel-blog-topaz.vercel.app/" underline="hover">
+              {website}
+            </Link>
+          </Typography>
 
           <Typography variant="overline" sx={{ color: 'text.disabled', pt: 1 }}>
             Category
@@ -54,13 +59,6 @@ export default function MarketingCaseStudySummary({ frontmatter }: Props) {
             Date
           </Typography>
           <Typography variant="body2">{fDate(createdAt)}</Typography>
-        </Stack>
-
-        <Divider sx={{ borderStyle: 'dashed' }} />
-
-        <Stack direction="row" alignItems="center" spacing={0.5}>
-          <Typography variant="subtitle2">Share:</Typography>
-          <SocialsButton initialColor links={socialLinks} />
         </Stack>
       </Stack>
     </RootStyle>

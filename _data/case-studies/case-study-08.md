@@ -1,7 +1,7 @@
 ---
 title: 'DevUp'
 description: 'DevUp was my first team project with React. I took the lead on the front-end development, but everything was a fluid collaboration and we were very proud.'
-category: 'Development'
+category: 'Early Projects'
 coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661466720/Screen_Shot_2022-08-25_at_5.31.56_PM_noryte.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661465507/Screen_Shot_2022-08-25_at_5.11.43_PM_eznziy.png'
 createdAt: '2021-10-18T05:35:07.322Z'

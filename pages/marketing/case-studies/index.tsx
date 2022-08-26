@@ -8,19 +8,16 @@ import { HEADER_MOBILE_HEIGHT, HEADER_DESKTOP_HEIGHT } from '../../../src/config
 import { getAllPosts } from '../../../src/utils/get-mardown/marketing/posts';
 import { getAllCaseStudies } from '../../../src/utils/get-mardown/marketing/case-studies';
 // _data
-import { _testimonials } from '../../../_data/mock';
+
 // @types
-import { BlogPostProps } from '../../../src/@types/blog';
+
 import { CaseStudyProps } from '../../../src/@types/marketing';
 // layouts
 import Layout from '../../../src/layouts';
 // components
 import { Page } from '../../../src/components';
 // sections
-import { NewsletterMarketing } from '../../../src/sections/newsletter';
-import { TestimonialsMarketing } from '../../../src/sections/testimonials';
-import { BlogMarketingLatestPosts } from '../../../src/sections/blog';
-import { MarketingFreeSEO, MarketingCaseStudiesList } from '../../../src/sections/@marketing';
+import {  MarketingCaseStudiesList } from '../../../src/sections/@marketing';
 
 // ----------------------------------------------------------------------
 
@@ -34,13 +31,13 @@ const RootStyle = styled('div')(({ theme }) => ({
 // ----------------------------------------------------------------------
 
 type Props = {
-  posts: BlogPostProps[];
+
   caseStudies: CaseStudyProps[];
 };
 
-export default function MarketingCaseStudiesPage({ posts, caseStudies }: Props) {
+export default function MarketingCaseStudiesPage({  caseStudies }: Props) {
   return (
-    <Page title="Case Studies - Marketing">
+    <Page title="My Projects | Aaron Harris">
       <RootStyle>
         <Container>
           <Stack
@@ -50,23 +47,23 @@ export default function MarketingCaseStudiesPage({ posts, caseStudies }: Props) 
               textAlign: { xs: 'center', md: 'left' },
             }}
           >
-            <Typography variant="h2">Our Case Studies</Typography>
+            <Typography variant="h2">Recent Projects</Typography>
             <Typography sx={{ color: 'text.secondary' }}>
-              Nullam tincidunt adipiscing enim.
-              <br /> Mauris sollicitudin fermentum libero.
+              I'm contantly coming up with new ideas
+              <br /> and push myself to learn more.
             </Typography>
           </Stack>
 
           <MarketingCaseStudiesList caseStudies={caseStudies} />
         </Container>
 
-        <TestimonialsMarketing testimonials={_testimonials} />
+        {/* <TestimonialsMarketing testimonials={_testimonials} /> */}
 
-        <BlogMarketingLatestPosts posts={posts.slice(0, 4)} />
+        {/* <BlogMarketingLatestPosts posts={posts.slice(0, 4)} /> */}
 
-        <MarketingFreeSEO />
+        {/* <MarketingFreeSEO /> */}
 
-        <NewsletterMarketing />
+        {/* <NewsletterMarketing /> */}
       </RootStyle>
     </Page>
   );
@@ -75,7 +72,7 @@ export default function MarketingCaseStudiesPage({ posts, caseStudies }: Props) 
 // ----------------------------------------------------------------------
 
 MarketingCaseStudiesPage.getLayout = function getLayout(page: ReactElement) {
-  return <Layout>{page}</Layout>;
+  return <Layout simpleFooter>{page}</Layout>;
 };
 
 // ----------------------------------------------------------------------
@@ -83,7 +80,7 @@ MarketingCaseStudiesPage.getLayout = function getLayout(page: ReactElement) {
 export async function getStaticProps() {
   return {
     props: {
-      posts: getAllPosts(),
+      
       caseStudies: getAllCaseStudies(),
     },
   };

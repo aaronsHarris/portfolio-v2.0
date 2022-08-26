@@ -15,17 +15,12 @@ import {
 import { HEADER_MOBILE_HEIGHT, HEADER_DESKTOP_HEIGHT } from '../../../src/config';
 // @types
 import { CaseStudyProps } from '../../../src/@types/marketing';
-// _data
-import { _testimonials } from '../../../_data/mock';
 // layouts
 import Layout from '../../../src/layouts';
 // components
 import { Page, Image, Markdown, Breadcrumbs } from '../../../src/components';
 // sections
-import { NewsletterMarketing } from '../../../src/sections/newsletter';
-import { TestimonialsMarketing } from '../../../src/sections/testimonials';
 import {
-  MarketingFreeSEO,
   MarketingCaseStudySummary,
   MarketingCaseStudyGallery,
   MarketingCaseStudiesSimilar,
@@ -54,7 +49,7 @@ export default function MarketingCaseStudyPage({ caseStudies, caseStudy }: Props
 
   return (
     <Page
-      title={`${title} - Case Study`}
+      title={`${title}`}
       meta={
         <>
           <meta property="og:image" content={coverImg} />
@@ -75,7 +70,7 @@ export default function MarketingCaseStudyPage({ caseStudies, caseStudy }: Props
             sx={{ my: { xs: 5, md: 10 } }}
             links={[
               { name: 'Home', href: '/' },
-              { name: 'Case Studies', href: Routes.marketing.caseStudies },
+              { name: 'Projects', href: Routes.marketing.caseStudies },
               { name: title },
             ]}
           />
@@ -98,13 +93,7 @@ export default function MarketingCaseStudyPage({ caseStudies, caseStudy }: Props
           </Grid>
         </Container>
 
-        <TestimonialsMarketing testimonials={_testimonials} />
-
         <MarketingCaseStudiesSimilar caseStudies={caseStudies.slice(0, 3)} />
-
-        <MarketingFreeSEO />
-
-        <NewsletterMarketing />
       </RootStyle>
     </Page>
   );
@@ -113,7 +102,7 @@ export default function MarketingCaseStudyPage({ caseStudies, caseStudy }: Props
 // ----------------------------------------------------------------------
 
 MarketingCaseStudyPage.getLayout = function getLayout(page: ReactElement) {
-  return <Layout>{page}</Layout>;
+  return <Layout simpleFooter>{page}</Layout>;
 };
 
 // ----------------------------------------------------------------------
