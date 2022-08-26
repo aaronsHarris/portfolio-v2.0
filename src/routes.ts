@@ -70,6 +70,10 @@ const Routes = {
   buyNow: 'https://material-ui.com/store/items/zone-landing-page',
   figmaPreview:
     'https://www.figma.com/file/11tJSszthQL962TkHYXBaw/Design-Process-WhiteBoard?node-id=0%3A1',
+
+    //custom
+    projects: '/projects',
+    about: '/about'
 };
 
 export default Routes;

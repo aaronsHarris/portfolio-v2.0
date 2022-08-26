@@ -1,7 +1,7 @@
 ---
 title: "Bing's Automotive"
 description: "Bing's is a small business in Minnesota that wanted a new theme to crush the competition"
-category: 'Digital'
+category: 'In Production'
 coverImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661459146/Screen_Shot_2022-08-25_at_3.25.42_PM_tpuu1u.png'
 heroImg: 'https://res.cloudinary.com/dbdrox2p9/image/upload/v1661459604/Screen_Shot_2022-08-25_at_3.33.18_PM_jnj7fj.png'
 createdAt: '2022-07-18T05:35:07.322Z'
