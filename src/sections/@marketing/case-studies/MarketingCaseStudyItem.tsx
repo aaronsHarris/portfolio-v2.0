@@ -29,8 +29,8 @@ export default function MarketingCaseStudyItem({ project }: Props) {
         </Typography>
         <NextLink
           passHref
-          as={Routes.marketing.caseStudy(slug)}
-          href={Routes.marketing.caseStudy('[slug]')}
+          as={Routes.project(slug)}
+          href={Routes.project('[slug]')}
         >
           <TextMaxLine variant="h5" line={1} asLink>
             {title}

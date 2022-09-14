@@ -1,7 +1,7 @@
 {
-  "name": "@zone/mui-kit",
-  "description": "landing & corporate",
-  "version": "1.4.0",
+  "name": "@AaronHarris/portfolio",
+  "description": "Aaron Harris's portfolio",
+  "version": "2.0",
   "private": true,
   "scripts": {
     "lint": "next lint",

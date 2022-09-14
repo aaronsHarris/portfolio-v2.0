@@ -73,7 +73,8 @@ const Routes = {
 
     //custom
     projects: '/projects',
-    about: '/about'
+    project: (slug: string) => `/projects/${slug}`,
+    about: '/about',
 };
 
 export default Routes;
