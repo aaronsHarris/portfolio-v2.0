@@ -6,14 +6,12 @@ import { Box, Stack, Button, AppBar, Divider, Container, Link } from '@mui/mater
 // hooks
 import { useOffSetTop, useResponsive } from '../../hooks';
 // routes
-import Routes from '../../routes';
+// import Routes from '../../routes';
 // config
 import { HEADER_DESKTOP_HEIGHT } from '../../config';
 // components
-import { Logo, Label } from '../../components';
+import { Logo, SocialsButton } from '../../components';
 //
-import Searchbar from '../Searchbar';
-import LanguagePopover from '../LanguagePopover';
 import { NavMobile, NavDesktop, navConfig } from '../nav';
 import { ToolbarStyle, ToolbarShadowStyle } from './HeaderToolbarStyle';
 
@@ -57,23 +55,27 @@ export default function Header({ transparent }: Props) {
           <Box sx={{ flexGrow: 1 }} />
 
           <Stack spacing={2} direction="row" alignItems="center">
-            <Searchbar
+            {/* <Searchbar
               sx={{
                 ...(isScrolling && { color: 'text.primary' }),
               }}
-            />
+            /> */}
+            {isDesktop && (
+              <SocialsButton />
+            )}
 
-            <LanguagePopover
+
+            {/* <LanguagePopover
               sx={{
                 ...(isScrolling && { color: 'text.primary' }),
               }}
-            />
+            /> */}
 
             <Divider orientation="vertical" sx={{ height: 24 }} />
 
             {isDesktop && (
               <Stack direction="row" spacing={1}>
-                <NextLink href={Routes.registerIllustration} prefetch={false} passHref>
+                {/* <NextLink href={Routes.registerIllustration} prefetch={false} passHref>
                   <Button
                     color="inherit"
                     variant="outlined"
@@ -86,10 +88,10 @@ export default function Header({ transparent }: Props) {
                   >
                     Join Us
                   </Button>
-                </NextLink>
+                </NextLink> */}
 
-                <Button variant="contained" href={Routes.buyNow} target="_blank" rel="noopener">
-                  log in
+                <Button variant="contained" href='/contact'  rel="noopener">
+                  Hire Me
                 </Button>
               </Stack>
             )}

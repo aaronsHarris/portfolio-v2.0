@@ -1,8 +1,8 @@
 // icons
 import logoLinkedin from '@iconify/icons-carbon/logo-linkedin';
-import logoFacebook from '@iconify/icons-carbon/logo-facebook';
-import logoTwitter from '@iconify/icons-carbon/logo-twitter';
-import logoInstagram from '@iconify/icons-carbon/logo-instagram';
+import logoGithub from '@iconify/icons-carbon/logo-github';
+// import logoTwitter from '@iconify/icons-carbon/logo-twitter';
+// import logoInstagram from '@iconify/icons-carbon/logo-instagram';
 // @mui
 import { alpha } from '@mui/material/styles';
 import { Stack, IconButton, Button, IconButtonProps, ButtonProps, Link } from '@mui/material';
@@ -30,29 +30,29 @@ export default function SocialsButton({
 }: SocialsButtonProps) {
   const SOCIALS = [
     {
-      name: 'FaceBook',
-      icon: logoFacebook,
+      name: 'GitHub',
+      icon: logoGithub,
       socialColor: '#1877F2',
-      path: links.facebook || '#facebook-link',
+      path: links.facebook || 'https://github.com/aaronsHarris?tab=repositories',
     },
-    {
-      name: 'Instagram',
-      icon: logoInstagram,
-      socialColor: '#E02D69',
-      path: links.instagram || '#instagram-link',
-    },
+    // {
+    //   name: 'Instagram',
+    //   icon: logoInstagram,
+    //   socialColor: '#E02D69',
+    //   path: links.instagram || '#instagram-link',
+    // },
     {
       name: 'Linkedin',
       icon: logoLinkedin,
       socialColor: '#007EBB',
-      path: links.linkedin || '#linkedin-link',
+      path: links.linkedin || 'https://www.linkedin.com/in/aaron-harris-577867218/',
     },
-    {
-      name: 'Twitter',
-      icon: logoTwitter,
-      socialColor: '#00AAEC',
-      path: links.twitter || '#twitter-link',
-    },
+    // {
+    //   name: 'Twitter',
+    //   icon: logoTwitter,
+    //   socialColor: '#00AAEC',
+    //   path: links.twitter || '#twitter-link',
+    // },
   ];
 
   return (
@@ -60,7 +60,7 @@ export default function SocialsButton({
       {SOCIALS.map((social) => {
         const { name, icon, path, socialColor } = social;
         return simple ? (
-          <Link key={name} href={path}>
+          <Link key={name} href={path} target='_blank'>
             <IconButton
               color="inherit"
               sx={{
