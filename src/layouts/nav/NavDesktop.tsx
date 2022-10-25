@@ -40,7 +40,7 @@ const RootLinkStyle = styled(Link, {
       margin: 'auto 0',
       borderRadius: '50%',
       position: 'absolute',
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: theme.palette.secondary.main,
     },
   };
   return {
@@ -54,7 +54,7 @@ const RootLinkStyle = styled(Link, {
       duration: theme.transitions.duration.shortest,
     }),
     '&:hover': {
-      opacity: 0.72,
+      color: theme.palette.secondary.main,
       textDecoration: 'none',
     },
     ...(active && {
