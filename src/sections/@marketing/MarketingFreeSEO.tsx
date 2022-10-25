@@ -61,8 +61,8 @@ export default function MarketingFreeSEO() {
                 textAlign: { xs: 'center', md: 'left' },
               }}
             >
-              Get Free
-              <br /> SEO Analysis
+              Let's Do
+              <br /> Work
             </Typography>
 
             <Stack
@@ -73,8 +73,8 @@ export default function MarketingFreeSEO() {
               sx={{ color: 'common.white', mb: 2 }}
             >
               <Iconify icon={emailIcon} sx={{ width: 24, height: 24 }} />
-              <Link color="inherit" href="mailto:hello@example.com">
-                hello@example.com
+              <Link color="inherit" href="mailto:aaronsharris@gmail.com">
+                aaronsHarris@gmail.com
               </Link>
             </Stack>
 
@@ -86,7 +86,7 @@ export default function MarketingFreeSEO() {
               sx={{ color: 'common.white' }}
             >
               <Iconify icon={locationIcon} sx={{ width: 24, height: 24 }} />
-              <Typography>508 Bridle Avenue Newnan, GA 30263</Typography>
+              <Typography>Houston, TX</Typography>
             </Stack>
           </Grid>
 
@@ -95,7 +95,7 @@ export default function MarketingFreeSEO() {
               <InputStyle variant="filled" label="Name" />
               <InputStyle variant="filled" label="Email" />
               <InputStyle variant="filled" label="Phone" />
-              <InputStyle variant="filled" label="Website URL" sx={{ pb: 2.5 }} />
+              {/* <InputStyle variant="filled" label="Website URL" sx={{ pb: 2.5 }} /> */}
               <Button size="large" variant="contained" sx={{ width: 172 }}>
                 Send Request
               </Button>

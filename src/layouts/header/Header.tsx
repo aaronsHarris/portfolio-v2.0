@@ -1,8 +1,7 @@
 // next
-import NextLink from 'next/link';
 // @mui
 import { useTheme } from '@mui/material/styles';
-import { Box, Stack, Button, AppBar, Divider, Container, Link } from '@mui/material';
+import { Box, Stack, Button, AppBar, Divider, Container} from '@mui/material';
 // hooks
 import { useOffSetTop, useResponsive } from '../../hooks';
 // routes
