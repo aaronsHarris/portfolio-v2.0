@@ -39,7 +39,7 @@ const FEATURE_HIGHLIGHTS = [
 const RootStyle = styled('div')(({ theme }) => ({
   ...cssStyles(theme).bgGradient({
     startColor: alpha(theme.palette.grey[500], 0),
-    endColor: alpha(theme.palette.grey[500], 0.12),
+    endColor: alpha(theme.palette.grey[800], 0.12),
   }),
   padding: theme.spacing(8, 0),
   [theme.breakpoints.up('md')]: {
@@ -78,9 +78,8 @@ export default function HomeFeatureHighlights() {
                 <Button
                   size="large"
                   variant="contained"
-                  target="_blank"
                   rel="noopener"
-                  href={Routes.buyNow}
+                  href='/projects'
                   sx={{
                     mt: 5,
                     display: {

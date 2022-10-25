@@ -17,7 +17,7 @@ const RootStyle = styled('div')(({ theme }) => ({
   overflow: 'hidden',
   position: 'relative',
   [theme.breakpoints.up('md')]: {
-    height: '80vh',
+    height: '100vh',
   },
 }));
 
@@ -31,7 +31,7 @@ export default function HomeHero() {
 
   return (
     <RootStyle>
-      <Container sx={{ height: 1}}>
+      <Container sx={{ height: 1 }}>
         <Grid container columnSpacing={3} alignItems="center" sx={{ height: 1 }}>
           <Grid item xs={12} md={5}>
             <Stack
@@ -39,20 +39,20 @@ export default function HomeHero() {
               alignItems={{ xs: 'center', md: 'flex-start' }}
               justifyContent="center"
               sx={{
-                pt: {xs: 15, md: 25},
-                pb: {xs: 5, md: 25},
-                pl: {xs: '0', md: '10px'},
+                pt: { xs: 15, md: 25 },
+                pb: { xs: 5, md: 25 },
+                pl: { xs: '0', md: '10px' },
                 textAlign: { xs: 'center', md: 'left' },
               }}
             >
               <Typography variant="h1">
                 I'm Aaron Harris
                 <Box component="span" sx={{ color: 'primary.main' }}>
-                  <Typography variant="h2">{''} Dev &</Typography>
+                  <Typography variant="h2">{''} Dev & Designer</Typography>
                 </Box>
-                <Box component="span" sx={{ color: 'secondary.main' }}>
+                {/* <Box component="span" sx={{ color: 'secondary.main' }}>
                   <Typography variant="h2">{''} Designer</Typography>
-                </Box>
+                </Box> */}
               </Typography>
 
               <Stack direction="row" spacing={2.5}>
@@ -78,17 +78,17 @@ export default function HomeHero() {
         sx={{
           maxWidth: 1280,
           position: 'absolute',
-          bottom: { md: '10%' },
+          bottom: { md: '0%' },
           right: { md: -10, xl: 0 },
           display: { xs: 'none', md: 'block' },
           width: { md: `calc(100% - ${offsetLeft}px)` },
           paddingRight: 10,
-
+          paddingBottom: 10,
         }}
       >
         <Image
           alt="home-hero"
-          src="https://res.cloudinary.com/dbdrox2p9/image/upload/v1659560114/Web-Design-PNG-Transparent_ywou6f.png"
+          src="https://res.cloudinary.com/dbdrox2p9/image/upload/v1666706447/pngwing.com_bvmcvv.png"
         />
       </Box>
     </RootStyle>
