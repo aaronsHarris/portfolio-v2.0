@@ -77,7 +77,7 @@ export default function ElearningLandingHero() {
                     size="large"
                     variant="contained"
                     endIcon={<Iconify icon={chevronRight} />}
-                    href='/travel/blog'
+                    href='/projects'
                   >
                     My Projects
                   </Button>
