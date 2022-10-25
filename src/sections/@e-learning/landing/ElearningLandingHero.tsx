@@ -68,8 +68,7 @@ export default function ElearningLandingHero() {
                 </Typography>
 
                 <Typography sx={{ color: 'text.secondary', mt: 3, mb: 5 }}>
-                  Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis
-                  venenatis ante odio sit amet eros.
+                  I love being creative with music and writing, shredding the streets of houston on my bike, and having dinner with the family
                 </Typography>
 
                 <Stack spacing={3} alignItems="center" direction={{ xs: 'column', md: 'row' }}>

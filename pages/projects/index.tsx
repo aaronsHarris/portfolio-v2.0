@@ -36,7 +36,7 @@ type Props = {
 
 export default function MarketingCaseStudiesPage({  caseStudies }: Props) {
   return (
-    <Page title="My Projects | Aaron Harris">
+    <Page title="My Projects">
       <RootStyle>
         <Container>
           <Stack
